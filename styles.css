@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-image: url(wp2952251-lord-shiv-3d-wallpaper.jg); 
+  border: 5px red dotted;
+  width: 1250px;
+  margin: auto;
+}
+
+aside{
+  width: 22%;
+  background-color: rgb(76, 76, 240);
+  position: left;
+  display: inline-block;
+  color: white;
+}
+
+section{
+  margin-left: 2%;
+  color: rgb(15, 14, 14);
+}
+
+aside h1{
+  margin-left: 15%;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+aside span{
+  margin-left: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+aside ul li{
+  list-style: none;
+  margin-left: 3px;
+  display:flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+progress{
+  height: 4px; 
+  width: 100px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(240, 241, 245);
+}
+
+progress::-webkit-progress-value {
+  background-color: rgb(75, 154, 237);
+}
+
+i{
+  width: 10px;
+  height: 10px;
+  background-color: whitesmoke;
+
+}
+
+main{
+  width: 78%;
+}
+
+aside h3{
+  margin-left: 14%;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main section ul li{
+  list-style: circle; 
+}
+
+main section h1{
+  color: rgb(118, 118, 245);
+  margin-left: 5px;
+}
+main section ul{
+  border-left: 1px solid blue;
+  padding: 0.6rem;
+}
+
+ /* .n{
+  text-decoration: line-through;
+  writing-mode: vertical-rl;
+}  */
+
